@@ -37,7 +37,7 @@ Lets say we have the array:
 ```
 Lets start with the first value `i=0` with the array `[5]`. Of course, the max sum is 5 due to it being the only value
 
-Next we have `i=1` so we're looking at the array `[5,-7]`. We're saying that at position index = 1, what would be the max sum of this spot? Remember that max sums can only go left, so we can only compare `[-7]` and `[5,-7]`. Thus, the max sum would be `-2`, since `5+(-7)` is > than `-7`
+Next we have `i=1` so we're looking at the array `[5,-7]`. We're saying that at position index = 1, what would be the max sum of this spot? Remember that max sums only go left since we are measuring the max sum at this position, so we can only compare `[-7]` and `[5,-7]`. Thus, the max sum would be `-2`, since `5+(-7)` is > than `-7`
 
 So the current list would look like:
 ```
